@@ -1,0 +1,36 @@
+@import "vars";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: $site_width;
+}
+
+.title {
+    color: $color_blue_violet;
+}
+
+.nav {
+    display: flex;
+    gap: $gutter * 2;
+
+    &__link {
+        text-decoration: none;
+    }
+}
+
+.content {
+    display: flex;
+    gap: $gutter * 2;
+
+    &__item {
+        flex: 1 1 auto;
+        max-width: calc($site_width / 4);
+        height: 200px;
+        border: $border;
+    }
+}
