@@ -1,0 +1,61 @@
+* {
+  margin: 0 auto;
+  padding: auto;
+}
+
+.box {
+  width: 350px;
+  height: 250px;
+  border: 1px solid #000;
+  background-color: #ccc;
+}
+.box__text {
+  width: 200px;
+  height: 200px;
+  text-shadow: 0px 0px 1px #000;
+  color: white;
+}
+
+.parallax {
+  min-height: 250px;
+  background-image: url(./img/vertical-shot-of-blurred-sea-during-sunset-great-for-wallpaper.jpg);
+  background-attachment: fixed;
+}
+
+.content-header {
+  height: 50px;
+  background-color: #555;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.menu {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 20%;
+  top: 20%;
+  margin-left: 10%;
+}
+
+.menu {
+  margin-left: 20%;
+}
+
+.r1 {
+  border-bottom-right-radius: 40px;
+}
+
+.r7 {
+  border-radius: 50%;
+}
+
+.r8 {
+  border-top: none;
+  border-bottom: none;
+  border-radius: 30px/90px;
+}
+
+.r9 {
+  border-radius: 0 100%;
+}/*# sourceMappingURL=style.css.map */
