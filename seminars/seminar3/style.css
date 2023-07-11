@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-link {
+  list-style: none;
+  display: flex;
+}
+
+.breadcramps:not(:last-child) ::after {
+  content: "/";
+  padding: 0 10px;
+}
+
+.breadcramps:last-child {
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
