@@ -1024,6 +1024,168 @@ summary::-webkit-details-marker {
   cursor: pointer;
 }
 
+.registration {
+  margin-top: 96px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.registration__container-left {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.registration__product-item {
+  background: #FFF;
+  width: 652px;
+  height: 180px;
+  display: flex;
+  position: relative;
+}
+
+.registration__product-info {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 22px 31px 62px 31px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.registration__product-header {
+  color: #222;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.checkbox__text {
+  color: #000;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.checkbox__info {
+  color: #B1B1B1;
+  font-family: Lato;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.adress__input::-moz-placeholder {
+  color: #B1B1B1;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.adress__input:-ms-input-placeholder {
+  color: #B1B1B1;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.adress__input::placeholder {
+  color: #B1B1B1;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.registration__buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 72px;
+  padding-bottom: 128px;
+}
+
+.registration__button-link {
+  display: block;
+  width: 167px;
+  height: 50px;
+  border: 1px solid #A4A4A4;
+  text-align: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin-left: 32px;
+  box-sizing: border-box;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  transition: all 0.3s;
+}
+
+.registration__button-link:hover {
+  border: 1px solid #F16D7F;
+  background-color: #F16D7F;
+  color: #FFFFFF;
+}
+
+.container-right__info {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+  padding-top: 15px;
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.container-right__title {
+  color: #000;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.container-right__text {
+  display: flex;
+  width: 652px;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.container-right__ul {
+  display: flex;
+  flex-direction: column;
+  width: 557px;
+  height: 204px;
+  flex-shrink: 0;
+}
+
+.container-right__li {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 16px;
+  align-items: center;
+  gap: 15px;
+}
+
 .service {
   background: #222222;
   padding-top: 103px;
