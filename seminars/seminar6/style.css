@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: url(./img/1645924395_4-gamerwall-pro-p-vid-nochnoi-zemli-iz-kosmosa-krasivie-oboi-6.jpg) no-repeat center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  counter-reset: count;
+}
+
+svg {
+  width: 50px;
+  height: 50px;
+}
+svg path {
+  fill: yellow;
+}
+
+.light {
+  position: absolute;
+  left: -9999999;
+  visibility: hidden;
+}
+.light:checked {
+  counter-increment: count;
+}
+
+.counter {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  color: aliceblue;
+}
+.counter::before {
+  content: counter(count);
+}
+
+.bulb {
+  position: absolute;
+}
+
+.bulb1 {
+  -webkit-animation: bulb-rise1 3s 0s both;
+          animation: bulb-rise1 3s 0s both;
+}
+
+.bulb2 {
+  -webkit-animation: bulb-rise2 3s 3s both;
+          animation: bulb-rise2 3s 3s both;
+}
+
+.bulb3 {
+  -webkit-animation: bulb-rise3 3s 6s both;
+          animation: bulb-rise3 3s 6s both;
+}
+
+@-webkit-keyframes bulb-rise1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 43vh;
+    left: 77vw;
+  }
+}
+
+@keyframes bulb-rise1 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 43vh;
+    left: 77vw;
+  }
+}
+@-webkit-keyframes bulb-rise2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 64vh;
+    left: 69vw;
+  }
+}
+@keyframes bulb-rise2 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 64vh;
+    left: 69vw;
+  }
+}
+@-webkit-keyframes bulb-rise3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 27vh;
+    left: 45vw;
+  }
+}
+@keyframes bulb-rise3 {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 27vh;
+    left: 45vw;
+  }
+}/*# sourceMappingURL=style.css.map */
