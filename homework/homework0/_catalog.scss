@@ -141,7 +141,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 150px;
+    margin-top: 48px;
     margin-bottom: 96px;
 
     &__group {
@@ -171,5 +171,59 @@
     &__icon:hover path {
         fill: $highlights_font_color;
     }
+}
 
+@media (max-width: 1023px) {
+    .filter-sort {
+        padding-top: 11px;
+        height: 81px;
+    }
+
+    .catalog {
+        &__product-cards-catalog {
+            margin-top: 0;
+            gap: 16px;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .filter-sort {
+        margin-bottom: -65px;
+    }
+
+    .filter {
+        &__heading {
+            display: none;
+        }
+
+        &__summary {
+            gap: 0px;
+            padding-left: 0;
+        }
+
+        &__logo {
+            width:37.5px;
+            height: 25px;
+        }
+
+        &__content {
+            width: 200px;
+            position: relative;
+            z-index: 30;
+        }
+    }
+
+    .sort {
+        gap: 23px;
+
+        &__heading {
+            font-size: 12px;
+        }
+    }
+
+    .paginator {
+        margin-top: 40px;
+        margin-bottom: 64px;
+    }
 }

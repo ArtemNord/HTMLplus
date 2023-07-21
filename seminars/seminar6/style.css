@@ -69,8 +69,8 @@ svg path {
   }
   100% {
     opacity: 0;
-    top: 24vh;
-    left: 97vw;
+    top: 35vh;
+    left: 43vw;
   }
 }
 
@@ -86,8 +86,8 @@ svg path {
   }
   100% {
     opacity: 0;
-    top: 24vh;
-    left: 97vw;
+    top: 35vh;
+    left: 43vw;
   }
 }
 @-webkit-keyframes bulb-rise2 {
@@ -102,8 +102,8 @@ svg path {
   }
   100% {
     opacity: 0;
-    top: 74vh;
-    left: 72vw;
+    top: 23vh;
+    left: 44vw;
   }
 }
 @keyframes bulb-rise2 {
@@ -118,8 +118,8 @@ svg path {
   }
   100% {
     opacity: 0;
-    top: 74vh;
-    left: 72vw;
+    top: 23vh;
+    left: 44vw;
   }
 }
 @-webkit-keyframes bulb-rise3 {
@@ -134,8 +134,8 @@ svg path {
   }
   100% {
     opacity: 0;
-    top: 13vh;
-    left: 47vw;
+    top: 45vh;
+    left: 27vw;
   }
 }
 @keyframes bulb-rise3 {
@@ -150,7 +150,7 @@ svg path {
   }
   100% {
     opacity: 0;
-    top: 13vh;
-    left: 47vw;
+    top: 45vh;
+    left: 27vw;
   }
 }/*# sourceMappingURL=style.css.map */
